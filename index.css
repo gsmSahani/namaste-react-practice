@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  list-style-type: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: cornsilk;
+}
+
+.nav-menu > ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul > li {
+  list-style-type: none;
+  /* margin: 10px; */
+  padding-left: 50px;
+}
+/* hero sections */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 25px;
+  margin: 50px;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* width: 500px; */
+}
+.hero-descc {
+  margin-bottom: 20px;
+}
+.hero-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.circle-globe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-globe img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  align-items: center;
+  border-color: brown;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* card */
+.card {
+  height: 420px;
+  width: 280px;
+  border: 2px solid black;
+  margin: 30px;
+}
+.card > img {
+  height: 200px;
+  width: 250px;
+  align-items: center;
+  margin: 10px 15px;
+}
+.card > h2,p,button{
+    margin: 10px;
+}

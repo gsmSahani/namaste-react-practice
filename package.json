@@ -1,0 +1,28 @@
+{
+  "name": "namaste-react-practice",
+  "version": "1.0.0",
+  "description": "this is testing react js",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsmSahani/namaste-react-practice.git"
+  },
+  "author": "Gautam Sahani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsmSahani/namaste-react-practice/issues"
+  },
+  "homepage": "https://github.com/gsmSahani/namaste-react-practice#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
